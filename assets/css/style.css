@@ -193,7 +193,6 @@ font-size: 1rem !important;
   }
   .end-text{
     font-size: 0.8rem !important;
-    margin-top: 1rem;
   }
   
   .desc-text-mob{
@@ -891,7 +890,7 @@ font-family: 'Space Mono', monospace;
   }
 
   .tm-text{
-    font-size: 0.5rem !important;
+    font-size: 0.1rem !important;
   }
 }
 
@@ -930,6 +929,9 @@ font-family: 'Space Mono', monospace;
     margin: 0;
   }
 }
+.bottom-text{
+  margin-top: 5.3rem;
+}
 
 @media (max-width: 767.98px) {
   .countdown-container {
@@ -945,4 +947,12 @@ font-family: 'Space Mono', monospace;
     width: 100%;
     margin: 0 auto;
   }
+  .bottom-text{
+    margin-top: 2.3rem;
+  }
+  .tm-text{
+    font-size: 0.4rem !important;
+  }
 }
+
+

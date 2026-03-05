@@ -14,10 +14,10 @@ html, body {
   font-style: normal;
   overflow-x: hidden;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.66), 
-      rgba(3, 29, 86, 0.516)
+      rgba(52, 34, 57, 0.339), 
+      rgba(109, 16, 163, 0.516)
     ),
-    url("../img/mms_bg.webp") no-repeat center center fixed;
+    url("../img/NRK_Launch_Page_BG.jpg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
   margin: 0;
@@ -158,20 +158,33 @@ p {
   color : white; 
   font-size: 4.8rem; 
   font-family: "Merriweather" !important;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
 }
 .head-line2{
   font-family: "Merriweather" !important;
+  margin-bottom:1rem;
+  font-size:2.4rem; 
 }
 .desc-text{
     margin-top: 1rem;
   }
+
+
 .Launch-tag{
+
+margin-top: 0.5rem !important;
+margin-bottom: 2rem !important;
+font-family: "Merriweather" !important;
+font-size: 1rem !important;
+color:aliceblue;
+}
+
+.Launch-title{
 
 margin-top: 2rem !important;
 margin-bottom: 1rem !important;
 font-family: "Merriweather" !important;
-font-size: 1rem !important;
+font-size: 2rem !important;
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
@@ -179,6 +192,13 @@ font-size: 1rem !important;
   }
   .head-line1 {
     font-size: 3rem !important;
+  }
+
+  .head-line2 {
+    font-size: 1.5rem !important;
+  }
+  .tm-text{
+    margin-top:0px;
   }
 }
 
@@ -198,16 +218,27 @@ font-size: 1rem !important;
   .desc-text-mob{
     margin-top: 1rem;
   }
+  .logo{
+    margin-top: 0px;
+  }
+  .head-line2 {
+    font-size: 1.3rem !important;
+  }
+  
 }
 @media (max-width: 767px) {
   main .main-wrapper.demo-06 .hero-area p {
     line-height: 24px !important;
     font-size: 14px;
   }
-}
-.logo img {
+  .logo img {
   width: 50%;
+  
 }
+}
+
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .img-wrapper {
@@ -385,8 +416,8 @@ main .header.header-06 {
 
 @media (max-width: 767px) {
   main .header.header-06 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -831,7 +862,7 @@ font-family: 'Space Mono', monospace;
     display: none;
   }
   .logo{
-    width: 50%;
+    
     margin-left: 10px;
   }
   .count-down {
@@ -921,7 +952,7 @@ font-family: 'Space Mono', monospace;
   }
 
   .logo img {
-    width:30%;
+    width:50%;
   }
 
   .contact-text {

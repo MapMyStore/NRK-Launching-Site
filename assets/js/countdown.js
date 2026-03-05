@@ -1,4 +1,4 @@
-const countdownDate = new Date("August 23, 2025 19:00:00").getTime();
+const countdownDate = new Date("March 31, 2026 19:00:00").getTime();
 const countdownEl = document.getElementById("countdown");
 
 function createSegment(value, label) {
@@ -40,29 +40,30 @@ updateCountdown(); // Initial call
 
 // Text animation
 
-const text = "We’re Growing";
+const text = "We’re Coming Soon!";
 let index = 0;
 
 function typeWriter() {
   if (index < text.length) {
     document.getElementById("typewriter1").innerHTML += text.charAt(index);
     index++;
-    setTimeout(typeWriter, 100); // Adjust speed here
-  } else {
-    // Once the first text is finished, start typing the second text
-    typeWriter1();
-  }
+    setTimeout(typeWriter, 80); // Adjust speed here
+  } 
 }
 
-const text1 = "And So Is Our Website!";
+const text1 = "NRK Multispeciality Dental Care";
 let index1 = 0;
 
 function typeWriter1() {
   if (index1 < text1.length) {
     document.getElementById("typewriter2").innerHTML += text1.charAt(index1);
     index1++;
-    setTimeout(typeWriter1, 80); // Adjust speed here
+    setTimeout(typeWriter1, 40); // Adjust speed here
+  }
+  else {
+    // Once the first text is finished, start typing the second text
+    typeWriter();
   }
 }
 
-window.onload = typeWriter;  // Start the first typewriter effect on page load
+window.onload = typeWriter1;  // Start the first typewriter effect on page load
